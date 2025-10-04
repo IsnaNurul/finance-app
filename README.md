@@ -35,7 +35,7 @@ Aplikasi manajemen keuangan berbasis Laravel dengan Vue.js dan Inertia.js untuk 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/financial-management-system.git
+git clone https://github.com/IsnaNurul/finance-app.git
 cd financial-management-system
 ```
 
@@ -55,27 +55,6 @@ npm install
 
 ```bash
 cp .env.example .env
-```
-
-Edit file `.env` dan sesuaikan konfigurasi database:
-
-```env
-APP_NAME="Financial Management System"
-APP_ENV=local
-APP_KEY=
-APP_DEBUG=true
-APP_URL=http://localhost:8000
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=financial_management
-DB_USERNAME=root
-DB_PASSWORD=
-
-# Untuk SQLite (opsional)
-# DB_CONNECTION=sqlite
-# DB_DATABASE=database/database.sqlite
 ```
 
 ### 5. Generate Application Key
@@ -123,16 +102,6 @@ npm run dev
 
 # Atau jalankan keduanya sekaligus
 composer run dev
-```
-
-### Testing
-
-```bash
-# Jalankan semua test
-php artisan test
-
-# Atau menggunakan composer
-composer run test
 ```
 
 ## 📁 Struktur Proyek
