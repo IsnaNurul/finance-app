@@ -36,7 +36,7 @@ Aplikasi manajemen keuangan berbasis Laravel dengan Vue.js dan Inertia.js untuk 
 
 ```bash
 git clone https://github.com/IsnaNurul/finance-app.git
-cd financial-management-system
+cd finance-app
 ```
 
 ### 2. Install Dependencies PHP
